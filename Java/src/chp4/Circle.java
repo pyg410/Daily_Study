@@ -1,3 +1,5 @@
+package chp4;
+
 public class Circle {
     public static void main(String[] args) {
         Circle pizza = new Circle(10, "자바피자");
