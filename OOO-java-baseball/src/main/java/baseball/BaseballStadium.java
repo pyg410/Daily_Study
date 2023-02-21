@@ -9,7 +9,7 @@ public class BaseballStadium {
         this.referee = referee;
         this.computer = computer;
     }
-
+    
     public GameResult play(Balls balls) {
         return referee.compare(computer.getBalls(), balls);
     }
