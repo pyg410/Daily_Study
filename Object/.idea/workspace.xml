@@ -1,19 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="24bc3a11-192b-4e54-aeca-f1ae07cfbb0b" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../숫자야구/belljun-pyg-java-baseball/src/main/java/baseball/BaseballGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/../숫자야구/belljun-pyg-java-baseball/src/main/java/baseball/BaseballGame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../숫자야구/belljun-pyg-java-baseball/src/main/java/baseball/model/Ball.java" beforeDir="false" afterPath="$PROJECT_DIR$/../숫자야구/belljun-pyg-java-baseball/src/main/java/baseball/model/Ball.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../숫자야구/belljun-pyg-java-baseball/src/main/java/baseball/model/Balls.java" beforeDir="false" afterPath="$PROJECT_DIR$/../숫자야구/belljun-pyg-java-baseball/src/main/java/baseball/model/Balls.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../숫자야구/belljun-pyg-java-baseball/src/main/java/baseball/model/BaseBallStadium.java" beforeDir="false" afterPath="$PROJECT_DIR$/../숫자야구/belljun-pyg-java-baseball/src/main/java/baseball/model/BaseBallStadium.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../숫자야구/belljun-pyg-java-baseball/src/main/java/baseball/model/GameResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/../숫자야구/belljun-pyg-java-baseball/src/main/java/baseball/model/GameResult.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../숫자야구/belljun-pyg-java-baseball/src/main/java/baseball/utils/Computer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../숫자야구/belljun-pyg-java-baseball/src/main/java/baseball/utils/Computer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../숫자야구/belljun-pyg-java-baseball/src/main/java/baseball/utils/Referee.java" beforeDir="false" afterPath="$PROJECT_DIR$/../숫자야구/belljun-pyg-java-baseball/src/main/java/baseball/utils/Referee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../숫자야구/belljun-pyg-java-baseball/src/main/java/baseball/view/BaseballGameConsole.java" beforeDir="false" afterPath="$PROJECT_DIR$/../숫자야구/belljun-pyg-java-baseball/src/main/java/baseball/view/BaseballGameConsole.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../숫자야구/belljun-pyg-java-baseball/src/main/java/baseball/view/BaseballGameStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/../숫자야구/belljun-pyg-java-baseball/src/main/java/baseball/view/BaseballGameStatus.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../숫자야구/belljun-pyg-java-baseball/src/main/java/baseball/view/Converter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../숫자야구/belljun-pyg-java-baseball/src/main/java/baseball/view/Converter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../숫자야구/belljun-pyg-java-baseball/src/main/java/baseball/view/Validator.java" beforeDir="false" afterPath="$PROJECT_DIR$/../숫자야구/belljun-pyg-java-baseball/src/main/java/baseball/view/Validator.java" afterDir="false" />
-    </list>
+    <list default="true" id="24bc3a11-192b-4e54-aeca-f1ae07cfbb0b" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
