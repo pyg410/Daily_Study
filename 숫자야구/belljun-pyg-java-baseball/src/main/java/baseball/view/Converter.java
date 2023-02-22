@@ -10,7 +10,7 @@ public class Converter {
 
     public static Balls toBalls(List<Integer> inputNum) {
         List<Ball> makeBalls = new ArrayList<>();
-        for(int i=1; i<=inputNum.size(); i++){
+        for (int i = 0; i < inputNum.size(); i++) {
             makeBalls.add(new Ball(inputNum.get(i), i));
         }
         return new Balls(makeBalls);

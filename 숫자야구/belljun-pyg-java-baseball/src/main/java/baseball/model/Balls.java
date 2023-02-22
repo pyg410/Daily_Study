@@ -1,6 +1,5 @@
 package baseball.model;
 
-import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -18,7 +17,7 @@ public class Balls {
         Map<CompareBallResult, Long> result = new HashMap<>();
         for (Ball b : balls) {
             CompareBallResult compareBallResult = compareBalls.calcResult(b);
-            result.merge(compareBallResult, 1L, (v1, v2) -> v1 + v2);
+            result.merge(compareBallResult, 1L, Long::sum);
         }
         return result;
     }

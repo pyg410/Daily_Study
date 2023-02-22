@@ -1,7 +1,5 @@
 package baseball.model;
 
-import java.util.Objects;
-
 public class Ball {
     private int number;
     private int idx;

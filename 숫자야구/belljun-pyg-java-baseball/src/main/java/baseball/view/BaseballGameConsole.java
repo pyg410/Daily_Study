@@ -11,9 +11,12 @@ public class BaseballGameConsole {
     private Speaker speaker;
     private Validator validator;
 
-    public BaseballGameConsole(Speaker speaker, Validator validator) {
+    private BaseballGameConsole(Speaker speaker, Validator validator) {
         this.speaker = speaker;
         this.validator = validator;
+    }
+    public BaseballGameConsole(){
+        this(new Speaker(), new Validator());
     }
 
     public void start(){

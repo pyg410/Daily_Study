@@ -3,7 +3,7 @@ package baseball.view;
 public enum BaseballGameStatus {
     END(true), AGAIN(false);
 
-    private boolean end;
+    private final boolean end;
 
     BaseballGameStatus(boolean end) {
         this.end = end;
