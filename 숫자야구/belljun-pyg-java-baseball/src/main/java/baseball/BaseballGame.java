@@ -3,7 +3,10 @@ package baseball;
 import baseball.model.BaseBallStadium;
 import baseball.model.GameResult;
 import baseball.view.BaseballGameConsole;
-import java.util.Map;
+import baseball.view.BaseballGameStatus;
+import baseball.view.Converter;
+
+import java.util.List;
 
 public class BaseballGame {
 
@@ -19,18 +22,18 @@ public class BaseballGame {
         baseballGameConsole.start();
     }
 
-    public void end() {
-        baseballGameConsole.inputEndNum();
+    public BaseballGameStatus end() {
+        return baseballGameConsole.inputEndNum();
     }
 
-    public void play() {
-        baseballGameConsole.inputBallsNums();
-
-
+    public GameResult play() {
+        List<Integer> inputBallsNums = baseballGameConsole.inputBallsNums();
+        return baseBallStadium.play(Converter.toBalls(inputBallsNums));
     }
 
-    public void result() {
-        baseballGameConsole.result();
+    public void result(GameResult gameResult) {
+        String result = gameResult.getGameResult();
+        baseballGameConsole.result(result); // 이부분 고쳐야됨
     }
 
 }
