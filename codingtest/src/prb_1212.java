@@ -3,36 +3,16 @@ import java.io.*;
 public class prb_1212 {
     public static void main(String[] args) throws IOException{
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        String[] inputArr = br.readLine().split("");
+        String inputNum = br.readLine();
+        StringBuilder sb = new StringBuilder();
 
-        String answer = "";
-        for(String s : inputArr){
-            System.out.println("aa : " + s);
-            answer = answer + solution(Integer.parseInt(s));
-        }
-        if(answer.charAt(0)=='0'){
-            answer.replaceFirst("0", "");
-            answer.
-        }
-
-        System.out.println(answer);
-
-
-
-    }
-
-    public static String solution(int eightNum){
-        StringBuilder twoNum = new StringBuilder();
-        while(true){
-            if(eightNum == 1){
-                twoNum.append("1");
-                break;
+        for(int i=0; i<inputNum.length(); i++){
+            String midNum = Integer.toBinaryString(inputNum.charAt(i)- '0');
+            while(midNum.length()<3 && i!=0){
+                midNum = "0" + midNum;
             }
-            int divideNum = eightNum % 2;
-            twoNum.append(String.valueOf(divideNum));
-            eightNum /= 2;
+            sb.append(midNum);
         }
-
-        return twoNum.reverse().toString();
+        System.out.println(sb);
     }
 }
