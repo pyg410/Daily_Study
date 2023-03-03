@@ -1,31 +1,18 @@
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStreamReader;
+import java.io.*;
 
-class Main{
-    public static void main(String[] args) throws IOException {
-        StringBuilder sb = new StringBuilder();
+public class Main {
+    public static void main(String[] args) throws IOException{
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        String inputNum = br.readLine();
+        StringBuilder sb = new StringBuilder();
 
-        String octat_num = br.readLine();
-
-        for(int i=0; i<octat_num.length(); i++){
-            int target = octat_num.charAt(i) - '0';
-            String s = Integer.toBinaryString(target);
-            if(s.length() == 3){
-                sb.append(s);
+        for(int i=0; i<inputNum.length(); i++){
+            String midNum = Integer.toBinaryString(inputNum.charAt(i)- '0');
+            while(midNum.length()<3 && i!=0){
+                midNum = "0" + midNum;
             }
-            else if(s.length()==2 && i!=0){
-                sb.append("0" + s);
-            }
-            else if(s.length()==1 && i!=0){
-                sb.append("00" + s);
-            }
-            else
-                sb.append(s);
+            sb.append(midNum);
         }
-
-        System.out.println(sb.toString());
-
+        System.out.println(sb);
     }
 }
