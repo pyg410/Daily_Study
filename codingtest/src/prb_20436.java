@@ -40,13 +40,13 @@ public class prb_20436 {
             }
             return;
         }
-        if(leftKey.containsKey(input)){
+        if(leftKey.containsKey(firstWord)){
             count += 1+ distance(leftLocation, firstWord);
-            leftLocation = leftKey.get(input);
+            leftLocation = leftKey.get(firstWord);
         }
         else {
             count += 1+ distance(rightLocation, firstWord);
-            rightLocation = rightKey.get(input);
+            rightLocation = rightKey.get(firstWord);
         }
 
         leastDistance(nextString, leftLocation, rightLocation);
