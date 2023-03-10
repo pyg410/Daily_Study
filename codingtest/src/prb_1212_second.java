@@ -1,6 +1,6 @@
 import java.io.*;
 
-public class prb_1212_2 {
+public class prb_1212_second {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         String[] binary = {"000", "001", "010", "011", "100", "101", "110", "111"};
