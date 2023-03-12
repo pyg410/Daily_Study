@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3c6cca9d-46ab-4b70-b058-5ae3e2ff8485" name="Changes" comment="" />
+    <list default="true" id="3c6cca9d-46ab-4b70-b058-5ae3e2ff8485" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../ModernJavaInAction/src/main/java/modernjavainaction/chap03/SSSSSSS/Fruit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ModernJavaInAction/src/main/java/modernjavainaction/chap03/SSSSSSS/dddddd.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ModernJavaInAction/src/main/java/modernjavainaction/chap02/Quiz1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ModernJavaInAction/src/main/java/modernjavainaction/chap02/Quiz1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ModernJavaInAction/src/main/java/modernjavainaction/chap03/Apple.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ModernJavaInAction/src/main/java/modernjavainaction/chap03/Apple.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -78,6 +83,41 @@
           <url>file://$PROJECT_DIR$/src/prb_12933.java</url>
           <line>39</line>
           <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/prb_14719.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="46" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/prb_14719.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="48" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/prb_14719.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="51" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/prb_14719.java</url>
+          <line>45</line>
+          <option name="timeStamp" value="53" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/prb_17276.java</url>
+          <line>49</line>
+          <option name="timeStamp" value="54" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/prb_17276.java</url>
+          <line>46</line>
+          <option name="timeStamp" value="57" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/prb_17276.java</url>
+          <line>51</line>
+          <option name="timeStamp" value="58" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
